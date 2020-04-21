@@ -5,7 +5,7 @@ gem "rails", github: "rails/rails", branch: "6-0-stable"
 
 gem "rails-controller-testing"
 gem "responders"
-gem "rack", github: "rack/rack", ref: "4ebd70b"
+gem "rack"
 
 group :development do
   gem "capistrano"

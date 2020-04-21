@@ -70,13 +70,6 @@ GIT
       nokogiri
 
 GIT
-  remote: https://github.com/rack/rack.git
-  revision: 4ebd70b243d79cecda1ba55abce8e2ead78395d7
-  ref: 4ebd70b
-  specs:
-    rack (2.2.0)
-
-GIT
   remote: https://github.com/rails/rails.git
   revision: 1db2ae1f5f7cf9615abc83620d282d535e4bc6aa
   branch: 6-0-stable
@@ -409,6 +402,7 @@ GEM
     public_suffix (4.0.3)
     puma (4.3.3)
       nio4r (~> 2.0)
+    rack (2.2.2)
     rack-attack (6.2.2)
       rack (>= 1.0, < 3)
     rack-protection (2.0.8.1)
@@ -624,7 +618,7 @@ DEPENDENCIES
   pg
   premailer-rails
   puma
-  rack!
+  rack
   rack-attack
   rails!
   rails-controller-testing
